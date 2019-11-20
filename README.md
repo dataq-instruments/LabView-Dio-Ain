@@ -1,11 +1,15 @@
 # LabView-Dio-Ain
 A Labview example employing one analog input channel along with digital input and output
 
-This LabView example demonstrates how to acquire continuous waveforms from two Thermocouple (K type) channels of DI-2008, using DataqSDK ActiveX 
+This LabView example demonstrates how to acquire continuous waveforms from one analog and one digita channel from DI-2008, using DataqSDK ActiveX. At the same time, allowing user to toggle the state of D6 as digital output
 
 See https://github.com/dataq-instruments/Labview for more discussion and other examples
 
-To select Thermocouple channels via ADGainList and ADDiffList methods, please refer to dataqxc.chm under c:\windows\help 
-
 ![alt text](https://www.dataq.com/resources/repository/labviewdio.gif "ScreenCapture")
 
+Footnotes: <br/>
+You need to use dataqxc.chm under c:\windows\help as reference in the following configurations:<br/>
+To enable digital input channel, see ADCChannelList <br/>
+To select the direction of DIO port, see Setting Bidirectional Digital Bits<br/>
+To output to Digital port, see DigitalOuput <br/>
+The digital bits are in the higher byte of the raw data returned by GetData
