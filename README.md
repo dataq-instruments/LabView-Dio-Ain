@@ -8,8 +8,8 @@ See https://github.com/dataq-instruments/Labview for more discussion and other e
 ![alt text](https://www.dataq.com/resources/repository/labviewdio.gif "ScreenCapture")
 
 Footnotes: <br/>
-You need to use dataqxc.chm under c:\windows\help as reference in the following configurations:<br/>
+You need to use dataqxc.chm under c:\windows\help as reference in the following instructions:<br/>
 To enable digital input channel, see ADCChannelList <br/>
-To select the direction of DIO port, see Setting Bidirectional Digital Bits<br/>
+To select the direction of DIO port, see Setting Bidirectional Digital Bits under DigitalOuput section<br/>
 To output to Digital port, see DigitalOuput <br/>
 The digital bits are in the higher byte of the raw data returned by GetData
