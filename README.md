@@ -5,7 +5,7 @@ This LabView example demonstrates how to acquire continuous waveforms from one a
 
 See https://github.com/dataq-instruments/Labview for more discussion and other examples
 
-![alt text](https://www.dataq.com/resources/repository/labviewdio.gif "ScreenCapture")
+![alt text](https://www.dataq.com/resources/repository/labviewdio.gif "ScreenCapture by LICECap")
 
 Footnotes: 
 
