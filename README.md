@@ -3,7 +3,7 @@ A Labview example employing one analog input channel along with digital input an
 
 This LabView example demonstrates how to acquire continuous waveforms from one analog and one digita channel from DI-2008, using DataqSDK ActiveX. At the same time, allowing user to toggle the state of D6 as digital output
 
-See https://github.com/dataq-instruments/Labview for more discussion and other examples
+See https://github.com/dataq-instruments/Labview for more discussion, debug procedure and other examples
 
 ![alt text](https://www.dataq.com/resources/repository/labviewdio.gif "ScreenCapture by LICECap")
 
